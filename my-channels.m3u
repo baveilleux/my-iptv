@@ -1,0 +1,122 @@
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml"
+
+#------------------------------------------------------------
+# HOW THIS FILE WORKS
+#
+# Each channel = two lines:
+#   Line 1: #EXTINF:-1 [metadata], Channel Name
+#   Line 2: The stream URL
+#
+# To add a channel: copy any two-line block, change the name
+#   and URL. That's it.
+#
+# To remove a channel: delete both lines for that entry.
+#
+# When a stream goes dead: find a replacement URL at
+#   https://iptv-org.github.io/iptv/countries/us.m3u
+#   (open in browser or text editor, search channel name)
+#
+# After editing on GitHub, VLC pulls the latest automatically
+#   next time you open the network stream URL.
+#------------------------------------------------------------
+
+
+# ============================================================
+# NEWS
+# ============================================================
+
+#EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://i.imgur.com/1a2sCHH.png" group-title="News",CNN
+https://cnn-tbs.akamaized.net/hls/live/2038280/tbs-clear-9/master.m3u8
+
+#EXTINF:-1 tvg-id="FoxNews.us" tvg-logo="https://i.imgur.com/yl6cWyA.png" group-title="News",Fox News
+https://d2e1asnsl7br7b.cloudfront.net/978d176158114e60a4fe85e5b0f08910/index.m3u8
+
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/7gA2zOZ.png" group-title="News",MSNBC
+https://dai.google.com/linear/hls/pa/event/Sid4xiJEQfKber8VXLD7GQ/stream/1b35e9e1-c4b3-4691-88e5-7e2f3082d97d:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://i.imgur.com/cNMJKXA.png" group-title="News",CNBC
+https://dai.google.com/linear/hls/pa/event/iWPJQmLQT1K7FwK2aJHUFQ/stream/8a3ec26c-ee93-4f5e-ae0e-23e8cd77ca14:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="ABCNews.us" tvg-logo="https://i.imgur.com/IiUZPE0.png" group-title="News",ABC News
+https://abcnewslive-lh.akamaihd.net/i/knxv_1@583120/master.m3u8
+
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://i.imgur.com/iFSBFrV.png" group-title="News",CBS News
+https://cbsnews-lh.akamaihd.net/i/cbsnews_1@142508/master.m3u8
+
+#EXTINF:-1 tvg-id="NBCNews.us" tvg-logo="https://i.imgur.com/mIkPbPf.png" group-title="News",NBC News NOW
+https://nbcnews-lh.akamaihd.net/i/nbcnews_ustream_1@120116/master.m3u8
+
+#EXTINF:-1 tvg-id="WeatherChannel.us" tvg-logo="https://i.imgur.com/rcgxTHH.png" group-title="News",The Weather Channel
+https://weatherscan.net/weatherscan.m3u8
+
+
+# ============================================================
+# SPORTS  (NFL / ESPN-style)
+# ============================================================
+
+#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://i.imgur.com/HkBEaWH.png" group-title="Sports",ESPN
+https://dai.google.com/linear/hls/pa/event/ckFKBFkqTFKhkYSxJNYYLg/stream/15fe49d4-f074-40eb-8dcc-2fae84da4a16:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-logo="https://i.imgur.com/9tBiLLh.png" group-title="Sports",ESPN 2
+https://dai.google.com/linear/hls/pa/event/LcDlOyj3TpKPCHRWkMKTQA/stream/dd6c3ad5-2bf9-4034-bb5c-1c63b2ac3ef4:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="ESPNU.us" tvg-logo="https://i.imgur.com/KnWkFQZ.png" group-title="Sports",ESPNU
+https://dai.google.com/linear/hls/pa/event/2HvNMHLpQoSJjSXXGIQ-Hw/stream/1c8c553a-3cde-4fcf-a898-4a8a1a12e3e7:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-logo="https://i.imgur.com/VPKfmMs.png" group-title="Sports",NFL Network
+https://dai.google.com/linear/hls/pa/event/rFGIGqBsTXuVhGnqakO0mQ/stream/96d9b8a3-2ee4-4ae7-bf62-e34fd9b5ef11:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="BTNsports.us" tvg-logo="https://i.imgur.com/RcJWaTB.png" group-title="Sports",Big Ten Network
+https://dai.google.com/linear/hls/pa/event/8mk30VTZQRiLWk09XM2h4A/stream/9aa10a8f-5b88-4fdf-a78d-ffb0c0b1c3e1:DLS/master.m3u8
+
+#EXTINF:-1 tvg-id="CBSSports.us" tvg-logo="https://i.imgur.com/gSnfMK1.png" group-title="Sports",CBS Sports Network
+https://cbssports-lh.akamaihd.net/i/cbssports_1@304883/master.m3u8
+
+#EXTINF:-1 tvg-id="NBCSports.us" tvg-logo="https://i.imgur.com/yZ1uYDE.png" group-title="Sports",NBC Sports
+https://nbcsports-lh.akamaihd.net/i/nbcsports_1@121556/master.m3u8
+
+
+# ============================================================
+# LOCAL / PBS
+# ============================================================
+
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-logo="https://i.imgur.com/bHIc4NI.png" group-title="PBS & Local",PBS Kids
+https://pbskids.akamaized.net/hls/live/2038399/pbskids/master.m3u8
+
+#EXTINF:-1 tvg-id="PBS.us" tvg-logo="https://i.imgur.com/6Xyq8fK.png" group-title="PBS & Local",PBS
+https://d2ajsf3mhpx35n.cloudfront.net/i/pbs_1@286642/master.m3u8
+
+#EXTINF:-1 tvg-id="KETV.us" tvg-logo="" group-title="PBS & Local",KETV (Omaha ABC)
+https://s84.ipcamlive.com/streams/4sfhznfirfmfudvfk/stream.m3u8
+
+#EXTINF:-1 tvg-id="WOWT.us" tvg-logo="" group-title="PBS & Local",WOWT (Omaha NBC)
+https://s84.ipcamlive.com/streams/local-ne-wowt/stream.m3u8
+
+#EXTINF:-1 tvg-id="KVNE.us" tvg-logo="" group-title="PBS & Local",Nebraska Educational TV (NET)
+https://netnebraska.akamaized.net/hls/live/net1/master.m3u8
+
+
+# ============================================================
+# MOVIES & ENTERTAINMENT
+# ============================================================
+
+#EXTINF:-1 tvg-id="PlutoTVMovies.us" tvg-logo="https://i.imgur.com/1nmijmp.png" group-title="Entertainment",Pluto TV Movies
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5419f59eb64f39b56a5bb10e/master.m3u8?deviceId=test&deviceType=web&sid=test
+
+#EXTINF:-1 tvg-id="TBS.us" tvg-logo="https://i.imgur.com/SAbhVhb.png" group-title="Entertainment",TBS
+https://cnn-tbs.akamaized.net/hls/live/2038280/tbs-clear-9/master.m3u8
+
+#EXTINF:-1 tvg-id="TNT.us" tvg-logo="https://i.imgur.com/Bm5cAVW.png" group-title="Entertainment",TNT
+https://tnt-tbs.akamaized.net/hls/live/2038288/tnt-clear-9/master.m3u8
+
+#EXTINF:-1 tvg-id="AMC.us" tvg-logo="https://i.imgur.com/0oqBKer.png" group-title="Entertainment",AMC
+https://linear-128.frequency.stream/dist/channels/AMC/master.m3u8
+
+#EXTINF:-1 tvg-id="SYFY.us" tvg-logo="https://i.imgur.com/BmpuEJw.png" group-title="Entertainment",Syfy
+https://linear-128.frequency.stream/dist/channels/SYFY/master.m3u8
+
+#EXTINF:-1 tvg-id="Peacock.us" tvg-logo="https://i.imgur.com/WtBrWbs.png" group-title="Entertainment",Peacock (Free)
+https://nbcuniversal.akamaized.net/hls/live/2048946/peacock-free/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVClassicTV.us" tvg-logo="https://i.imgur.com/1nmijmp.png" group-title="Entertainment",Pluto TV Classic TV
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5e42a793a72eba0007344f11/master.m3u8?deviceId=test&deviceType=web&sid=test
