@@ -63,14 +63,29 @@ https://yahoo-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports",FOX Sports
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
 
+#EXTINF:-1 tvg-id="FoxSports1.us@HD",Fox Sports 1 (720p)
+http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+
+#EXTINF:-1 tvg-id="FoxSports1.us@HD",Fox Sports 1 (720p)
+https://streamvidex.qzz.io/videx/fox1usa/index.m3u8
+
+#EXTINF:-1 tvg-id="FoxSports1.us@HD",Fox Sports 1
+http://cdn.haititivi.com/Fox_Sports_1/index.m3u8
+
 #EXTINF:-1 tvg-id="ESPN8TheOcho.us@ESPN8TheOchoHD" group-title="Sports",ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 
-#EXTINF:-1 tvg-id="NFLChannel.us@SD" group-title="Sports",NFL Channel
-https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD",NFL Network (720p)
+http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-id="Stadium.us@SD" group-title="Sports",Stadium (College & Pro Sports)
-https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD",NFL Network (720p)
+http://40.160.24.53/NFL_Network/index.m3u8
+
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD",NFL Network (720p)
+http://206.212.244.63/196/index.m3u8
+
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD",NFL Network (576p)
+http://45.189.62.33:8002/play/a0kk/index.m3u8
 
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW
 https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
@@ -128,10 +143,18 @@ https://d2ugl2g2gz1giy.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" group-title="PBS & Local",CBC News
 https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
 
+#EXTINF:-1 tvg-id="CBS.us@East",CBS (576p)
+http://tvsen7.aynascope.net/cbs/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox.us@East",Fox (720p)
+http://stream.cammonitorplus.net/1752/index.m3u8
 
 # ============================================================
 # MOVIES & ENTERTAINMENT
 # ============================================================
+
+#EXTINF:-1 tvg-id="USANetwork.us@East",USA Network (720p)
+http://206.212.244.63/168/index.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="Entertainment",ABC 20/20
 https://d4bq78o8d5tf5.cloudfront.net/ABC_2020.m3u8
