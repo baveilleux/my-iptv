@@ -7,116 +7,170 @@
 #   Line 1: #EXTINF:-1 [metadata], Channel Name
 #   Line 2: The stream URL
 #
-# To add a channel: copy any two-line block, change the name
-#   and URL. That's it.
+# To add a channel: copy any two-line block, change name/URL.
+# To remove a channel: delete both lines.
 #
-# To remove a channel: delete both lines for that entry.
+# When a stream dies, find a replacement at:
+#   https://github.com/iptv-org/iptv/blob/master/streams/us_samsung.m3u
+#   (Ctrl+F the channel name, copy its two lines into your file)
 #
-# When a stream goes dead: find a replacement URL at
-#   https://iptv-org.github.io/iptv/countries/us.m3u
-#   (open in browser or text editor, search channel name)
-#
-# After editing on GitHub, VLC pulls the latest automatically
-#   next time you open the network stream URL.
+# After editing on GitHub, VLC pulls the latest automatically.
 #------------------------------------------------------------
 
 
 # ============================================================
-# NEWS
+# NEWS  (all URLs verified from iptv-org us_samsung.m3u)
 # ============================================================
 
-#EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://i.imgur.com/1a2sCHH.png" group-title="News",CNN
-https://cnn-tbs.akamaized.net/hls/live/2038280/tbs-clear-9/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive.us@SD" group-title="News",ABC News Live
+https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
 
-#EXTINF:-1 tvg-id="FoxNews.us" tvg-logo="https://i.imgur.com/yl6cWyA.png" group-title="News",Fox News
-https://d2e1asnsl7br7b.cloudfront.net/978d176158114e60a4fe85e5b0f08910/index.m3u8
+#EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" group-title="News",NBC News NOW
+https://pb-o6czxr182vtiv.akamaized.net/master.m3u8
 
-#EXTINF:-1 tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/7gA2zOZ.png" group-title="News",MSNBC
-https://dai.google.com/linear/hls/pa/event/Sid4xiJEQfKber8VXLD7GQ/stream/1b35e9e1-c4b3-4691-88e5-7e2f3082d97d:DLS/master.m3u8
+#EXTINF:-1 tvg-id="ScrippsNews.us@SD" group-title="News",Scripps News
+https://pb-syzbb4sicfx4g.akamaized.net/ScrippsNews_US.m3u8
 
-#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://i.imgur.com/cNMJKXA.png" group-title="News",CNBC
-https://dai.google.com/linear/hls/pa/event/iWPJQmLQT1K7FwK2aJHUFQ/stream/8a3ec26c-ee93-4f5e-ae0e-23e8cd77ca14:DLS/master.m3u8
+#EXTINF:-1 tvg-id="CheddarNews.us@SD" group-title="News",Cheddar News
+https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar/samsung_us/latest/main/hls/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ABCNews.us" tvg-logo="https://i.imgur.com/IiUZPE0.png" group-title="News",ABC News
-https://abcnewslive-lh.akamaihd.net/i/knxv_1@583120/master.m3u8
+#EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" group-title="News",LiveNOW from FOX
+https://pb-k5p02dtnr2162.akamaized.net/LiveNOW_from_FOX.m3u8
 
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://i.imgur.com/iFSBFrV.png" group-title="News",CBS News
-https://cbsnews-lh.akamaihd.net/i/cbsnews_1@142508/master.m3u8
+#EXTINF:-1 tvg-id="Newsmax2.us@SD" group-title="News",Newsmax
+https://newsmax-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NBCNews.us" tvg-logo="https://i.imgur.com/mIkPbPf.png" group-title="News",NBC News NOW
-https://nbcnews-lh.akamaihd.net/i/nbcnews_ustream_1@120116/master.m3u8
+#EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD" group-title="News",AccuWeather NOW
+https://d1gldweznovt26.cloudfront.net/Accuweather.m3u8
 
-#EXTINF:-1 tvg-id="WeatherChannel.us" tvg-logo="https://i.imgur.com/rcgxTHH.png" group-title="News",The Weather Channel
-https://weatherscan.net/weatherscan.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" group-title="News",Bloomberg TV+
+https://d2d98ykcmmhgd4.cloudfront.net/v1/bloomberg_bloombergtv_2/samsungheadend_us/latest/main/hls/playlist.m3u8
 
+#EXTINF:-1 tvg-id="TODAYAllDay.us@SD" group-title="News",TODAY All Day (NBC)
+https://d37kx062o4ii0p.cloudfront.net/master.m3u8
 
-# ============================================================
-# SPORTS  (NFL / ESPN-style)
-# ============================================================
+#EXTINF:-1 tvg-id="USATODAY.us@SD" group-title="News",USA Today
+https://usatodaynews-samsungus-tsv2-ghkcu.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://i.imgur.com/HkBEaWH.png" group-title="Sports",ESPN
-https://dai.google.com/linear/hls/pa/event/ckFKBFkqTFKhkYSxJNYYLg/stream/15fe49d4-f074-40eb-8dcc-2fae84da4a16:DLS/master.m3u8
-
-#EXTINF:-1 tvg-id="ESPN2.us" tvg-logo="https://i.imgur.com/9tBiLLh.png" group-title="Sports",ESPN 2
-https://dai.google.com/linear/hls/pa/event/LcDlOyj3TpKPCHRWkMKTQA/stream/dd6c3ad5-2bf9-4034-bb5c-1c63b2ac3ef4:DLS/master.m3u8
-
-#EXTINF:-1 tvg-id="ESPNU.us" tvg-logo="https://i.imgur.com/KnWkFQZ.png" group-title="Sports",ESPNU
-https://dai.google.com/linear/hls/pa/event/2HvNMHLpQoSJjSXXGIQ-Hw/stream/1c8c553a-3cde-4fcf-a898-4a8a1a12e3e7:DLS/master.m3u8
-
-#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-logo="https://i.imgur.com/VPKfmMs.png" group-title="Sports",NFL Network
-https://dai.google.com/linear/hls/pa/event/rFGIGqBsTXuVhGnqakO0mQ/stream/96d9b8a3-2ee4-4ae7-bf62-e34fd9b5ef11:DLS/master.m3u8
-
-#EXTINF:-1 tvg-id="BTNsports.us" tvg-logo="https://i.imgur.com/RcJWaTB.png" group-title="Sports",Big Ten Network
-https://dai.google.com/linear/hls/pa/event/8mk30VTZQRiLWk09XM2h4A/stream/9aa10a8f-5b88-4fdf-a78d-ffb0c0b1c3e1:DLS/master.m3u8
-
-#EXTINF:-1 tvg-id="CBSSports.us" tvg-logo="https://i.imgur.com/gSnfMK1.png" group-title="Sports",CBS Sports Network
-https://cbssports-lh.akamaihd.net/i/cbssports_1@304883/master.m3u8
-
-#EXTINF:-1 tvg-id="NBCSports.us" tvg-logo="https://i.imgur.com/yZ1uYDE.png" group-title="Sports",NBC Sports
-https://nbcsports-lh.akamaihd.net/i/nbcsports_1@121556/master.m3u8
+#EXTINF:-1 tvg-id="YahooFinance.us@SD" group-title="News",Yahoo Finance
+https://yahoo-samsung.amagi.tv/playlist.m3u8
 
 
 # ============================================================
-# LOCAL / PBS
+# SPORTS  (NFL / College Football + ESPN-style)
 # ============================================================
 
-#EXTINF:-1 tvg-id="PBSKids.us" tvg-logo="https://i.imgur.com/bHIc4NI.png" group-title="PBS & Local",PBS Kids
-https://pbskids.akamaized.net/hls/live/2038399/pbskids/master.m3u8
+#EXTINF:-1 tvg-id="" group-title="Sports",FOX Sports
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
 
-#EXTINF:-1 tvg-id="PBS.us" tvg-logo="https://i.imgur.com/6Xyq8fK.png" group-title="PBS & Local",PBS
-https://d2ajsf3mhpx35n.cloudfront.net/i/pbs_1@286642/master.m3u8
+#EXTINF:-1 tvg-id="ESPN8TheOcho.us@ESPN8TheOchoHD" group-title="Sports",ESPN8 The Ocho
+https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 
-#EXTINF:-1 tvg-id="KETV.us" tvg-logo="" group-title="PBS & Local",KETV (Omaha ABC)
-https://s84.ipcamlive.com/streams/4sfhznfirfmfudvfk/stream.m3u8
+#EXTINF:-1 tvg-id="NFLChannel.us@SD" group-title="Sports",NFL Channel
+https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
 
-#EXTINF:-1 tvg-id="WOWT.us" tvg-logo="" group-title="PBS & Local",WOWT (Omaha NBC)
-https://s84.ipcamlive.com/streams/local-ne-wowt/stream.m3u8
+#EXTINF:-1 tvg-id="Stadium.us@SD" group-title="Sports",Stadium (College & Pro Sports)
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KVNE.us" tvg-logo="" group-title="PBS & Local",Nebraska Educational TV (NET)
-https://netnebraska.akamaized.net/hls/live/net1/master.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW
+https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="SportsGrid.us@SD" group-title="Sports",SportsGrid
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",beIN Sports XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Sports",Yahoo Sports Network
+https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Sports",Big 12 Studios
+https://d18pj8s9gbivdq.cloudfront.net/The_Big_12.m3u8
+
+#EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" group-title="Sports",ACC Digital Network
+https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8
+
+#EXTINF:-1 tvg-id="Pac12Insider.us@SD" group-title="Sports",Pac 12 Insider
+https://pac12-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" group-title="Sports",Fubo Sports Network
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="WomensSportsNetwork.us@SD" group-title="Sports",Women's Sports Network
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
+
+#EXTINF:-1 tvg-id="DraftKingsNetwork.us@SD" group-title="Sports",DraftKings Network
+https://d2obyvq5go60aw.cloudfront.net/DraftKings_Network.m3u8
+
+
+# ============================================================
+# PBS & LOCAL
+# ============================================================
+
+#EXTINF:-1 tvg-id="PBSNature.us@SD" group-title="PBS & Local",PBS Nature
+https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
+
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" group-title="PBS & Local",PBS Travel
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="PBS & Local",PBS Food
+https://d3w43rc3ob044a.cloudfront.net/PBS_Food.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="PBS & Local",PBS Genealogy
+https://d21xx25clbv3i1.cloudfront.net/PBS_Genealogy.m3u8
+
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" group-title="PBS & Local",PBS Antiques Roadshow
+https://pb-ft51qiiwihqtb.akamaized.net/PBS_Antiques_Roadshow.m3u8
+
+#EXTINF:-1 tvg-id="WBTV641.us@HD" group-title="PBS & Local",WBTV News Charlotte NC
+https://d2ugl2g2gz1giy.cloudfront.net/index.m3u8
+
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" group-title="PBS & Local",CBC News
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
 
 
 # ============================================================
 # MOVIES & ENTERTAINMENT
 # ============================================================
 
-#EXTINF:-1 tvg-id="PlutoTVMovies.us" tvg-logo="https://i.imgur.com/1nmijmp.png" group-title="Entertainment",Pluto TV Movies
-https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5419f59eb64f39b56a5bb10e/master.m3u8?deviceId=test&deviceType=web&sid=test
+#EXTINF:-1 tvg-id="" group-title="Entertainment",ABC 20/20
+https://d4bq78o8d5tf5.cloudfront.net/ABC_2020.m3u8
 
-#EXTINF:-1 tvg-id="TBS.us" tvg-logo="https://i.imgur.com/SAbhVhb.png" group-title="Entertainment",TBS
-https://cnn-tbs.akamaized.net/hls/live/2038280/tbs-clear-9/master.m3u8
+#EXTINF:-1 tvg-id="" group-title="Entertainment",CW FOREVER
+https://d1sknsnbkyvie.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TNT.us" tvg-logo="https://i.imgur.com/Bm5cAVW.png" group-title="Entertainment",TNT
-https://tnt-tbs.akamaized.net/hls/live/2038288/tnt-clear-9/master.m3u8
+#EXTINF:-1 tvg-id="" group-title="Entertainment",CW Gold
+https://d1d726ny1vain2.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AMC.us" tvg-logo="https://i.imgur.com/0oqBKer.png" group-title="Entertainment",AMC
-https://linear-128.frequency.stream/dist/channels/AMC/master.m3u8
+#EXTINF:-1 tvg-id="CourtTV.us@SD" group-title="Entertainment",Court TV
+https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8
 
-#EXTINF:-1 tvg-id="SYFY.us" tvg-logo="https://i.imgur.com/BmpuEJw.png" group-title="Entertainment",Syfy
-https://linear-128.frequency.stream/dist/channels/SYFY/master.m3u8
+#EXTINF:-1 tvg-id="GravitasMovies.us@SD" group-title="Entertainment",Gravitas Movies
+https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 
-#EXTINF:-1 tvg-id="Peacock.us" tvg-logo="https://i.imgur.com/WtBrWbs.png" group-title="Entertainment",Peacock (Free)
-https://nbcuniversal.akamaized.net/hls/live/2048946/peacock-free/master.m3u8
+#EXTINF:-1 tvg-id="TheAsylum.us@US" group-title="Entertainment",The Asylum
+https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVClassicTV.us" tvg-logo="https://i.imgur.com/1nmijmp.png" group-title="Entertainment",Pluto TV Classic TV
-https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5e42a793a72eba0007344f11/master.m3u8?deviceId=test&deviceType=web&sid=test
+#EXTINF:-1 tvg-id="ShoutFactoryTV.us@SD" group-title="Entertainment",Shout! TV Classic
+https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8
+
+#EXTINF:-1 tvg-id="MysteryScienceTheater3000.us@SD" group-title="Entertainment",Mystery Science Theater 3000
+https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8
+
+#EXTINF:-1 tvg-id="DocumentaryPlus.us@US" group-title="Entertainment",Documentary+
+https://d1kx9y4yhe8h6h.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VICETV.us@SD" group-title="Entertainment",VICE
+https://d1ocru52bkg5e9.cloudfront.net/VICE.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Entertainment",Hallmark Movies & More
+https://pb-clwlfvkqpn19r.akamaized.net/Hallmark_Movies_%26_More.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Entertainment",Lifetime Movies Love & Drama
+https://d1s7megtamek6r.cloudfront.net/Lifetime_Love_and_Drama.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Entertainment",Conan O'Brien TV
+https://pb-nhrhhcia276e2.akamaized.net/Conan_OBrien_TV.m3u8
+
+#EXTINF:-1 tvg-id="BYUTV.us@SD" group-title="Entertainment",BYUtv
+https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8
