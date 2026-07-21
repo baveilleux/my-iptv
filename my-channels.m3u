@@ -197,3 +197,80 @@ https://pb-nhrhhcia276e2.akamaized.net/Conan_OBrien_TV.m3u8
 
 #EXTINF:-1 tvg-id="BYUTV.us@SD" group-title="Entertainment",BYUtv
 https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8
+
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml"
+
+# ============================================================
+# SOCCER  (MLS / European)
+# ============================================================
+#
+# HONEST NOTE on MLS & top European leagues (EPL, UCL):
+# MLS Season Pass (Apple TV+), ESPN+, Peacock, and Paramount+
+# hold exclusive live rights — those are paywalled and will NOT
+# appear in any free/public IPTV source. What IS available free:
+#   - FIFA+ (highlights, classic matches, lower-league live)
+#   - beIN Sports XTRA (La Liga, Ligue 1, international friendlies)
+#   - RugbyPass TV sometimes carries UEFA content off-peak
+# For live EPL/UCL/MLS, the honest path is Peacock (free tier has
+# some) or a TV antenna for NBC broadcast matches.
+
+#EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" group-title="Soccer",FIFA+
+https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Soccer",beIN Sports XTRA (La Liga / Ligue 1)
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+
+#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" group-title="Soccer",beIN Sports XTRA en Español
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+
+#EXTINF:-1 tvg-id="RugbyPassTV.uk@SD" group-title="Soccer",RugbyPass TV (UEFA/FIFA off-peak)
+https://dt1kh32hg3tft.cloudfront.net/v1/world_rugby_rugbypasstv_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+
+
+# ============================================================
+# SPORTS  (NFL / College Football + ESPN-style)
+# ============================================================
+
+#EXTINF:-1 tvg-id="" group-title="Sports",FOX Sports
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
+
+#EXTINF:-1 tvg-id="ESPN8TheOcho.us@ESPN8TheOchoHD" group-title="Sports",ESPN8 The Ocho
+https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+
+#EXTINF:-1 tvg-id="NFLChannel.us@SD" group-title="Sports",NFL Channel
+https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
+
+#EXTINF:-1 tvg-id="Stadium.us@SD" group-title="Sports",Stadium (College & Pro Sports)
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" group-title="Sports",NBC Sports NOW
+https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="SportsGrid.us@SD" group-title="Sports",SportsGrid
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" group-title="Sports",beIN Sports XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Sports",Yahoo Sports Network
+https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Sports",Big 12 Studios
+https://d18pj8s9gbivdq.cloudfront.net/The_Big_12.m3u8
+
+#EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" group-title="Sports",ACC Digital Network
+https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8
+
+#EXTINF:-1 tvg-id="Pac12Insider.us@SD" group-title="Sports",Pac 12 Insider
+https://pac12-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" group-title="Sports",Fubo Sports Network
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="WomensSportsNetwork.us@SD" group-title="Sports",Women's Sports Network
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
+
+#EXTINF:-1 tvg-id="DraftKingsNetwork.us@SD" group-title="Sports",DraftKings Network
+https://d2obyvq5go60aw.cloudfront.net/DraftKings_Network.m3u8
+
+
